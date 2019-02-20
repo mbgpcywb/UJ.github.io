@@ -124,6 +124,7 @@ display:none;
     <a href="#home" class="w3-bar-item w3-button">HOME</a>
     <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
     <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PORTFOLIO</a>
+    <a href="#projects" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PROJECTS</a>
     <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
     <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
       <i class="fa fa-search"></i>
@@ -134,6 +135,7 @@ display:none;
   <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
     <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a> <!--already under bar-block, change it to none-float element(display:block)-->
     <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
+    <a href="#projects" class="w3-bar-item w3-button" onclick="toggleFunction()">PROJECTS</a>
     <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
     <a href="#" class="w3-bar-item w3-button">SEARCH</a>
   </div>
@@ -228,14 +230,14 @@ display:none;
 </div>
 
 <!-- Second Parallax Image with Portfolio Text -->
-<div class="bgimg-2 w3-display-container w3-opacity-min">
+<div class="bgimg-2 w3-display-container w3-opacity-min" id="portfolio">
   <div class="w3-display-middle">
     <span class="w3-xxlarge w3-text-white w3-wide"><b>PORTFOLIO</b></span>
   </div>
 </div>
 
 <!-- Container (Portfolio Section) -->
-<div class="w3-content w3-container w3-padding-64" id="portfolio">
+<div class="w3-content w3-container w3-padding-64" >
   <h3 class="w3-center">MY WORK</h3>
   <p class="w3-center"><em>Here are some of my latest photographs.<br> Click on the images to make them bigger</em></p><br>
 
@@ -285,7 +287,7 @@ display:none;
 </div>
 
 <!-- Second Parallax Image with Portfolio Text -->
-<div class="bgimg-3 w3-display-container w3-opacity-min">
+<div class="bgimg-3 w3-display-container w3-opacity-min" id="projects">
     <div class="w3-display-middle">
       <span class="w3-xxlarge w3-text-white w3-wide"><b>PROJECTS</b></span>
     </div>
@@ -327,14 +329,14 @@ display:none;
 </div>
 
 <!-- forth Parallax Image with Portfolio Text -->
-<div class="bgimg-4 w3-display-container w3-opacity-min">
+<div class="bgimg-4 w3-display-container w3-opacity-min" id="contact">
   <div class="w3-display-middle">
      <span class="w3-xxlarge w3-text-white w3-wide"><b>CONTACT</b></span>
   </div>
 </div>
 
 <!-- Container (Contact Section) -->
-<div class="w3-content w3-container w3-padding-64" id="contact">
+<div class="w3-content w3-container w3-padding-64" >
   <h3 class="w3-center">WHERE I AM</h3>
   <p class="w3-center"><em>I'd love your feedback!</em></p>
 
