@@ -54,7 +54,9 @@ h1,h2,h3,h4,h5,h6{font-family:"Segoe UI",Arial,sans-serif;font-weight:400;margin
 hr{border:0;border-top:1px solid #eee;margin:20px 0}
 img{vertical-align:middle}
 a{color:inherit}
-
+.border{
+    border-color: grey; border-style: solid; border-radius: 25px;
+}
 .w3-serif{font-family:serif}
 .w3-wide{letter-spacing:4px}
 .w3-image{max-width:100%;height:auto;margin:auto;}
